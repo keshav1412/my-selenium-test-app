@@ -27,17 +27,17 @@ public class App {
 
 		// 1. Open the URL
 		// driver.get("http://13.58.166.105:8080/addressbook-2.0/");
-		driver.get("http://3.23.105.112:8081/contact.html");
+		driver.get("http://3.84.159.237:8081/contact.html");
 		// invoke implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 
-		driver.findElement(By.name("your_name")).sendKeys("Shubham");
+		driver.findElement(By.name("your_name")).sendKeys("keshav");
 		
-		driver.findElement(By.name("phone_number")).sendKeys("999999999");
+		driver.findElement(By.name("phone_number")).sendKeys("999999990");
 		
-		driver.findElement(By.name("email_address")).sendKeys("xyz@abc.com");
+		driver.findElement(By.name("email_address")).sendKeys("xyz2@abc.com");
 		
-		driver.findElement(By.name("your_message")).sendKeys("Hello, How are you?");
+		driver.findElement(By.name("your_message")).sendKeys("hey keshav?");
 		
 		driver.findElement(By.id("my-button")).click();
 	
@@ -100,7 +100,7 @@ public class App {
 		 * 
 		 * WebElement submitButton = driver.findElement(By.cssSelector("button"));
 		 * Thread.sleep(2000); textBox.sendKeys("Selenium"); Thread.sleep(1000);
-		 * password.sendKeys("shubham"); Thread.sleep(1000);
+		 * password.sendKeys("keshav"); Thread.sleep(1000);
 		 * textarea.sendKeys("Hello, How are you ?"); submitButton.click();
 		 * Thread.sleep(2000); WebElement message =
 		 * driver.findElement(By.id("message")); System.out.println(message.getText());
